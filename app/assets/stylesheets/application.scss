@@ -1,6 +1,9 @@
 // Graphical variables
-@import "config/variables";
-@import "config/bootstrap_variables";
+
+
+
+
+@import "social-share-button";
 
 // External libraries
 @import "bootstrap-sprockets";
@@ -13,3 +16,11 @@
 @import "layout/index";
 @import "components/index";
 @import "pages/index";
+
+
+.social-share-button-facebook {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url("/social/facebook.png") no-repeat;
+}
