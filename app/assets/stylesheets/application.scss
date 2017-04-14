@@ -1,10 +1,5 @@
 // Graphical variables
 
-
-
-
-@import "social-share-button";
-
 // External libraries
 @import "bootstrap-sprockets";
 @import "bootstrap";
@@ -17,6 +12,15 @@
 @import "components/index";
 @import "pages/index";
 
+@import "config/main";
+@import "config/bootstrap";
+@import "config/icomoon";
+@import "config/animate-custom";
+
+
+
+
+@import "social-share-button";
 
 .social-share-button-facebook {
   display: inline-block;
