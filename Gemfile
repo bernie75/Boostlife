@@ -20,9 +20,7 @@ gem 'autoprefixer-rails'
 gem 'activeadmin', github: 'activeadmin/activeadmin'
 gem 'inherited_resources', github: 'activeadmin/inherited_resources'
 gem 'social-share-button'
-group :production do
-  gem "rails_12factor"
-end
+
 
 
 group :development, :test do
